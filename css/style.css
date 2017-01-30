@@ -1,0 +1,49 @@
+body {
+
+}
+
+h2 {
+	text-align: center;
+}
+
+img {
+	width: 60%;
+	padding:0 20% 0 20%;
+}
+
+article {
+	width: 30%;
+	display: inline-block;
+	border: 1px solid lightblue;
+	float: left;
+	min-height: 1200px;
+	margin-left: 2%;
+}
+
+article > header {
+	border: 1px dotted lightgray;
+
+}
+
+.available {
+	background-color: gray;
+	color: yellow; 
+	padding: none;
+}
+
+.description {
+	text-align: justify;
+	padding: 5px;
+}
+
+
+.not-available {
+	background-color: grey;
+	color: yellow;
+}
+
+footer {
+	font-size: .7em;
+	font-style: italic;
+
+}
